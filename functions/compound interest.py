@@ -3,7 +3,7 @@ def compound():
     R=float(input("enter the rate: "))
     T=float(input("enter the total time required: "))
     N=int(input("enter the number of times the interest is compounded: "))
-    CI= ((P*(1+R/N))*N*T)
+    CI= ((P*(1+R/N))**(N*T))
     return CI
 interest=compound()
-print(interest)
+print(interest) 
